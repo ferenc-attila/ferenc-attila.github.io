@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB&C Menu</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="navDiv" class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(231, 198, 160)">
+            <div class="container-fluid">
+                <a id="brandInitial" class="navbar-brand" href="../html/index.html">
+                    <img src="../img/bamboo_panda.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    BB&C</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/admin.html">Admin</a>
+                        </li>
+                    </ul>
+                    <div class="card">
+                        <div class="card-body logo" style="background-color: rgb(182, 211, 184)">
+                            Bamboo Breakfast & Cofee
+                            <img src="../img/bamboo_panda.svg" alt="" width="30" height="30"
+                                class="d-inline-block align-text-top">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container mainContainer">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8" style="background-color: rgb(221, 230, 215)">
+                <div class="info alert-info">
+                    <h1 class="display-1">Menu</h1>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8" style="background-color: rgb(221, 230, 215)">
+                        <div class="info alert-info">
+                            <h2 class="display-2">Food</h2>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div>
+                    <table id="foodTable" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    Name
+                                </th>
+                                <th scope="col">
+                                    Price (SBD)
+                                </th>
+                                <th scope="col">
+                                    Quantity
+                                </th>
+                                <th scope="col">
+                                    Promotion
+                                </th>
+                                <th scope="col">
+                                    Salary price (SBD)
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8" style="background-color: rgb(221, 230, 215)">
+                        <div class="info alert-info">
+                            <h2 class="display-2">Drink</h2>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div>
+                    <table id="drinkTable" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    Name
+                                </th>
+                                <th scope="col">
+                                    Price (SBD)
+                                </th>
+                                <th scope="col">
+                                    Quantity
+                                </th>
+                                <th scope="col">
+                                    Promotion
+                                </th>
+                                <th scope="col">
+                                    Salary price (SBD)
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div id="divAboveBtn" class="d-grid gap-2 col-8 mx-auto" style="background-color: rgb(221, 230, 215)">
+            <a class="btn btn-success topBtn" href="#top">Top of the page</a>
+        </div>
+    </div>
+
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+@font-face {
+    font-family: dancing;
+    src: url(../fonts/dancing_script/DancingScript-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: dancingBold;
+    src: url(../fonts/dancing_script/DancingScript-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+    background: rgb(182, 211, 184) url("../img/Leafy-Design-Seamless-Pattern-10.svg") fixed center;
+  }
+
+.logo {
+      font-family: dancing, cursive;
+      font-size: 20px;
+  }
+
+.logo-lg {
+    font-family: dancing, cursive;
+    font-size: 40px;
+}
+
+.img-thumbnail {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+}
+
+.img-thumbnail:hover {
+    border: 3px solid #777;
+  }
+  
+.img-thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+
+.img-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width: 1024px;
+}
+
+[class^="display-"] {
+    margin-top: 15px;
+    padding: 15px;
+    font-family: dancing;
+    background-color: rgb(231, 198, 160);
+}
+
+.displayAdmin {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    font-family: cursive;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.display-2 {
+    font-size: 45px;
+}
+
+#mapDiv {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+#openingHours {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#divAboveBtn {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+}
+
+#brandInitial {
+    font-family: dancing, cursive;
+    font-size: 20px;
+}
+
+.lowerPrice {
+    font-weight: bold;
+    color: brown;
+}
+
+.getOneFree {
+    font-weight: bold;
+    color: green;
+}
+
+.topBtn {
+    background-color: rgb(182, 211, 184);
+}
+
+#carouselDiv {
+    background-color: rgb(221, 230, 215);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navDiv {
+    position: fixed;
+}
+
+.mainContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

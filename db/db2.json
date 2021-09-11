@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "name": "Ferenc Alma",
+      "email": "alma@mail.hu",
+      "id": 1,
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "name": "Kis János",
+      "email": "littlejohn@gmail.com",
+      "role": "costumer"
+    },
+    {
+      "name": "Ferenc Attila",
+      "email": "attila@mail.hu",
+      "id": 4,
+      "role": "admin"
+    },
+    {
+      "name": "Villám Géza",
+      "email": "geysa@gmail.com",
+      "id": 7,
+      "role": "costumer"
+    },
+    {
+      "name": "Szabó Lacika",
+      "email": "lacika@mail.hu",
+      "id": 8,
+      "role": "costumer"
+    },
+    {
+      "name": "Nagy TAmás",
+      "email": "bigtom@gmail.com",
+      "role": "costumer",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "name": "Szabó Tasziló János",
+      "email": "taszika@mail.hu",
+      "role": "costumer"
+    },
+    {
+      "name": "Ferenc Attila",
+      "email": "attila.ferenc.80@gmail.com",
+      "role": "costumer",
+      "id": 11
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Welcome!",
+      "body": "We are pleased to inform you that our restaurant will open its doors tomorrow! We warmly welcome all our guests! More information (opening hours, contact information) can be found on our <a href='http://127.0.0.1:5500/html/about.html'>\"About\"</a> page.",
+      "author": "Ferenc Alma",
+      "date": "2021-08-31"
+    },
+    {
+      "id": 2,
+      "title": "Opening promotions!",
+      "body": "You can find our opening promotions on the homepage of our website's <a href='http://127.0.0.1:5500/html/index.html#promotionTitle'>Home</a> page and on the <a href='http://127.0.0.1:5500/html/menu.html'>Menu</a>.",
+      "author": "Ferenc Attila",
+      "date": "2021-09-01"
+    },
+    {
+      "title": "New promotions!",
+      "body": "We have new promotions! See the homepage of our website's <a href='http://127.0.0.1:5500/html/index.html#promotionTitle'>Home</a> page and on the <a href='http://127.0.0.1:5500/html/menu.html'>Menu</a>.\"",
+      "author": "Ferenc Attila",
+      "date": "2021-09-02",
+      "id": 3
+    }
+  ],
+  "menu": [
+    {
+        "id": 1,
+        "category": "food",
+        "subcategory": "sweetness",
+        "name": "Biscuits",
+        "price": 4,
+        "quantity": "3 pcs",
+        "promotion": "buy one get one free",
+        "promotionValue": 0
+      }
+]
+}
